@@ -6,6 +6,7 @@ This project aims to provide teachers with an efficient, data-driven tool for an
 Beyond saving time, the system will help educators identify trends in student performance, allowing them to pinpoint areas for improvement and adjust teaching strategies accordingly. Without this tool, teachers will continue relying on outdated methods, limiting their ability to make informed, data-backed decisions. Implementing this solution will not only streamline workflow for educators but also benefit students, as schools and administrators will be able to monitor academic trends and student success more effectively. The insights generated will contribute to refining educational approaches, ensuring students receive the necessary support to enhance their learning experience.  
 
 Statement of Functionality
+
 •	Prompt User for Input – The program will display instructions for the user to enter the test scores to be analyzed. 
 •	Store Test Scores – The system will read and securely store the entered test scores in a stack for processing.
 •	Determine Highest and Lowest Scores – Using a linear search algorithm, the program will compare each test score against the current highest and lowest values. The first entered score will be initialized as both the highest and lowest, and subsequent scores will be evaluated. If a score is higher than the stored highest, it will replace the previous highest value. If a score is lower than the stored lowest, it will replace the previous lowest value.
