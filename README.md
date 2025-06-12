@@ -8,9 +8,13 @@ Beyond saving time, the system will help educators identify trends in student pe
 Statement of Functionality
 
 •	Prompt User for Input – The program will display instructions for the user to enter the test scores to be analyzed. 
+
 •	Store Test Scores – The system will read and securely store the entered test scores in a stack for processing.
+
 •	Determine Highest and Lowest Scores – Using a linear search algorithm, the program will compare each test score against the current highest and lowest values. The first entered score will be initialized as both the highest and lowest, and subsequent scores will be evaluated. If a score is higher than the stored highest, it will replace the previous highest value. If a score is lower than the stored lowest, it will replace the previous lowest value.
+
 •	Calculate Average Score – The program will iterate through all stored test scores, summing them together and dividing by the total number of scores to compute the average.
+
 •	Generate Output – The system will display the highest, lowest, and average scores in a clear format. Additionally, it will assign a letter grade equivalence to each score using structured conditional logic (if-else statements) and will output it with the score
 
  
